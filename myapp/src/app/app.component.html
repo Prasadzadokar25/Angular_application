@@ -1,0 +1,30 @@
+<div id="nav">
+  <h1 id="title">{{title}}</h1>
+</div>
+
+<div id="inputdiv">
+<input type="text" #name  class="inputdata"  placeholder="Enter your name"      name="Name"><br>
+<input type="email" #email class="inputdata"  placeholder="Enter Email Id"       name="Email"><br>
+<input type="text" #contact class="inputdata" placeholder="Enter Your mobile no" name="Contact"><br>
+
+
+</div>
+<div id="buttondiv">
+  <button style="background-color: rgb(32, 245, 245); width:50%;height: 40px ; border-radius:10px" (click)="getValue(name.value, email.value, contact.value)">Register</button><br>
+</div>
+
+<div id="nav">
+  <h1 id="title">Your Registered Data</h1> <br>
+</div>
+<div id="displaydiv">
+
+  <p class="displaytext">Name  :   {{displayname}}</p>
+  <hr>
+  <p class="displaytext">Email  :   {{displayemail}}</p>
+  <hr>
+  <p class="displaytext">Contact  :   {{displaycontact}}</p>
+
+ 
+  
+
+</div>

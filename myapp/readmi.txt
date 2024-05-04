@@ -1,0 +1,5 @@
+1. install node js
+2. check npm vertion by : npm -v
+3. install angular cli : npm install -g @angular/cli@latest
+4. create new project : ng new project_name
+5. run project : ng serve
